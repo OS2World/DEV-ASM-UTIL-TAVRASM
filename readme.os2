@@ -1,0 +1,64 @@
+================================================================================
+                Toms AVR macro assembler - TAVRASM ver. 1.20
+--------------------------------------------------------------------------------
+tavrasm - assembler for the Atmel AVR series of micro-controllers.
+Copyright (C) 1999-2004 Tom Mortensen.
+                                Listing:
+                                ~~~~~~~~
+../tavrasm.exe		executable file (not compressed)
+../cmprsd/tavrasm.exe	executable file (compressed)
+../src.zip		sources of tavrasm (also see @ www.tavrasm.org)
+../readme		text file of original version (by Tom Mortensen)
+../gpl.txt		text of GNU GENERAL PUBLIC LICENSE
+../readme.os2		this file
+--------------------------------------------------------------------------------
+1. Brief introduction.
+~~~~~~~~~~~~~~~~~~~~~~
+I very needed this program, but there was only DOS version which I could run
+under OS/2. Tavrasm is command line program and therefore it was not
+so comfortable to work with it in OS/2. Thus I've compiled OS/2 version
+of tavrasm.
+
+2. How to run the program.
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+You need to have installed EMX runtime DLL to run this program. If you don't
+have EMX support then see:
+ftp://hobbes.nmsu.edu/pub/os2/dev/emx/v0.9d/emxrt.zip
+ftp://ftp.leo.org/pub/comp/os/os2/leo/gnu/emx+gcc/emxrt.zip
+ftp://crydee.sai.msu.ru/pub/comp/os/os2/leo/gnu/emx+gcc/emxrt.zip
+
+Just copy the tavrasm executable into a directory in your path.
+Type 'tavrasm.exe file.asm'. This will generate an Intel HEX output file
+('file.hex'). Run 'tavrasm.exe' without any arguments to get more help.
+
+3. Multilanguge support.
+~~~~~~~~~~~~~~~~~~~~~~~~
+Now you can work with English, Russian, Spanish and German version of tavrasm.
+
+4. Support.
+~~~~~~~~~~~
+If you want to send any bug-reports/suggestions/patches than send it to 
+author of tavrasm [tom@tavrasm.org] or visit http://www.tavrasm.org.
+
+You can send any suggestions about support OS/2 version of tavrasm or
+Russian language support to me [sergey@rzi.tusur.ru] with subject="tavrasm/2".
+
+5. License and other.
+~~~~~~~~~~~~~~~~~~~~
+Read file 'readme' for detailed information or visit http://www.tavrasm.org
+If you have questions about AVR-assembler visit http://www.atmel.com
+
+6. Tips.
+~~~~~~~~
+I use tavrasm with FTE (http://fte.sourceforge.net/). Color scheme for
+AVR-assembler you can download here: http://svk.city.tomsk.net/files/fte_avr.rar
+
+===============================================================================
+Have a nice OS/2 :).
+Sergey V. Khudyakov.
+
+WWW   :	[http://svk.city.tomsk.net]
+e-mail: [sergey@rzi.tusur.ru]
+FIDO  : [2:5005/115.60]
+ICQ   : [53820916]
+IRC   : [TuNiTe on efnet-> #os2russian & runet -> #uworld]
